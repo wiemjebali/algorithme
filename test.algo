@@ -1,0 +1,7 @@
+ALGORITHM mesg hello
+VAR
+    var phrase : string
+BEGIN
+phrase := "bonjour wiem"
+lire(phrase)
+END

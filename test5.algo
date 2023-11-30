@@ -1,0 +1,12 @@
+ALGORITHM valide
+VAR
+    var:n(0..20)
+BEGIN
+    lire(n)
+    IF (N>10) THEN
+        ecrire("valide")
+    ELSE
+        ecrire("non valide")
+        
+    END_IF
+END

@@ -1,0 +1,16 @@
+ALGORITHM voyelle
+VAR
+    ph1 : string 
+    nbr : integer
+BEGIN
+    ecrire("donner votre phrase")
+    lire(ph1)
+    nbr=0
+  FOR i FROM 1 TO ph1.length STEP 1  DO
+    IF (ph1[i]== ['a','e','u','o','i']) THEN
+    nbr = nbr+1
+     END_IF
+  END_FOR
+  ecrire("le nombre de voyelles" nbr)
+
+END

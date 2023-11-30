@@ -1,0 +1,10 @@
+ALGORITHM produit 
+VAR
+    var a,b : INTEGER
+    p: INTEGER
+BEGIN
+   ecrire ("donner les valeurs de a et b")
+   lire (a et b)
+   p=a*b
+   lire (p)
+END

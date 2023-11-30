@@ -1,0 +1,11 @@
+ALGORITHM pair et impair
+VAR
+    var A : integer
+BEGIN
+    lire(A)
+    IF (A%2=0) THEN
+        ecrire("pair")
+    ELSE
+        ecrire("impair")
+    END_IF
+END

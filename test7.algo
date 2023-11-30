@@ -1,0 +1,19 @@
+ALGORITHM valeur
+VAR
+var ph1 : string 
+nbr: integer
+BEGIN
+    ecrire("donner votre phrase")
+    lire("ph1")
+    nbr=0
+FOR i FROM 1 TO ph1.legth STEP 1  DO
+    IF (ph1[i]==' ' ) THEN
+    nbr= nbr+1
+    
+
+        
+    END_IF
+END_FOR 
+ecrire("votre phrase contient les nombres de mot" nbr)   
+END
+

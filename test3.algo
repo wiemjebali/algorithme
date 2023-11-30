@@ -1,0 +1,12 @@
+ALGORITHM permutation
+VAR
+var a,b:intiger
+c:integer
+BEGIN
+c=a 
+a=b 
+b=c
+    ecrire ("donner les valeurs de  a et b")
+    lire (a et b)
+
+END
